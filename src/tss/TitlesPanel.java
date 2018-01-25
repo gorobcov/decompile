@@ -26,6 +26,7 @@ implements ActionListener {
 
 	/**
 	 * Constructor creating object of class TitlesPanel.
+	 * @param _shape define shape type and stroke.
 	 */
     public TitlesPanel(int _shape) {
         this.shape = _shape;
@@ -43,6 +44,7 @@ implements ActionListener {
 
 	/**
 	 * Method redraw figures on frame.
+	 * @param g - object of abstact class Graphics, which allow to draw onto components.
 	 */
     private void doDrawing(Graphics g) {
         this.is_done = false;
