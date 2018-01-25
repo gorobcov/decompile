@@ -21,6 +21,9 @@ extends JFrame {
         this.setLocationRelativeTo(null);
     }
 
+	/**
+	 * Main method of the program. Entry point in program.
+	*/
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable(){
 
